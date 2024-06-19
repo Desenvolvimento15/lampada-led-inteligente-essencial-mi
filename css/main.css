@@ -119,7 +119,7 @@
     
     .subtitle-left {
     text-align: left;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 600;
     font-family: 'MiSans', sans-serif;
     position: relative;
@@ -192,13 +192,13 @@
     width: 100%;
     }
 
-    .grid-text-second{
-     display: flex;
-    width: 58rem;
-    align-items: center;
-    flex-direction: row;
-    gap: 1rem;
-    margin: 0 auto;
+    .grid-text-second {
+        display: flex;
+        max-width: 97%;
+        align-items: center;
+        flex-direction: row;
+        gap: 0rem;
+        margin: 0 auto;
     }
 
     .grid-title-tree {
@@ -224,6 +224,15 @@
     .img-mob{display: block;}
     
     /***************************** Grind Mobile ************************************/
+
+    .grid-text-second {
+        display: flex;
+        max-width: 98%;
+        align-items: center;
+        flex-direction: row;
+        gap: 6rem;
+        margin: 0 auto;
+    }
 
     .grid-title {
     position: absolute;
