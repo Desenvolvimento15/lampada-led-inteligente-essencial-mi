@@ -171,6 +171,17 @@
     flex-direction: column;
     }
 
+    .grid-title-3 {
+    position: absolute;
+    right: 0rem;
+    left: 20rem;
+    top: 15rem;
+    bottom: 0;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    }
+
     .grid-tree {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
