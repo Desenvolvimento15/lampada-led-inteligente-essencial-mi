@@ -148,9 +148,9 @@
         position: relative;
         overflow-wrap: break-word;
         }
-      }
+    }
       
-      @media (min-width: 769px) and (max-width: 1024px) {
+    @media (min-width: 769px) and (max-width: 1024px) {
 
         .container-s101 {
             max-width: 90rem;
@@ -305,44 +305,44 @@
             
             .spacing{padding: 3rem;}
         /* Regras para tablets */
-      }
+    }
       
-      @media (min-width: 1025px) {
+    @media (min-width: 1025px) {
 
+    .container-s101 {
+        max-width: 90rem;
+        background-color: #fff;
+        background-repeat: repeat-y;
+        }
+        
         .container-s101 {
-            max-width: 90rem;
-            background-color: #fff;
-            background-repeat: repeat-y;
-            }
-            
-            .container-s101 {
-            width: 100%;
-            padding-right: 15px;
-            padding-left: 15px;
-            margin-right: auto;
-            margin-left: auto;
-            }
-            
-            .col-sm-12-s101{
-            position: relative;
-            width: 100%;
-            min-height: 1px;
-            }
-            
-            .col-sm-12-s101 {
-            -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-            max-width: 100%;
-            }
-            
-            .row-s101 {
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-right: -15px;
-            margin-left: -15px;
-            }
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        }
+        
+        .col-sm-12-s101{
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        }
+        
+        .col-sm-12-s101 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        }
+        
+        .row-s101 {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        }
             
             /***************************** Fonts Text ******************************************/
             
