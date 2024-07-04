@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     }
-    
+
     html {
     font-family: sans-serif;
     line-height: 1.15;
@@ -12,9 +12,9 @@
     -ms-overflow-style: scrollbar;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     }
-    
+
     @-ms-viewport {width: device-width;}
-    
+
     @font-face {
     font-family: 'MiSans';
     font-style: normal;
@@ -32,446 +32,446 @@
     line-height: 1.5;
     text-align: left;
     }
-    
-    
+
+
     /***************************** Img & Icons ******************************************/
-    
+
     img {vertical-align: middle; border-style: none;}
-    
+
     .img-fluid {max-width: 100%; height: auto;}
-    
+
     .img-mob{display: none;}
     .img-desk{display: block;}
-    
+
     .icons-size {width: 4rem; margin: 1rem;}
     .icons-img-end{width: 40rem; margin: 0 auto; display: block; margin-top: 5rem;}
-    
-    
+
+
     /***************************** Roots Color ******************************************/
-    
+
     :root{
     --background-white: #ffff;
     --background-silver: #E8E8E8;
 
-    
     --text-white: #fff;
     --text-preto: #292929;
     }
-    
+
     .txt-branco {color: var(--text-white);}
     .txt-preto{color: var(--text-preto)}
-    
+
     .boxcolor-white{background-color: var(--background-white);}
     .boxcolor-silver{background-color: var(--background-silver);}
 
-    /***************************** Estrutura - Layout ******************************************/
-    
-   
-    
-    /************************************* Mobile ***************************************/
+    .spacing{padding: 3rem;}
+
+    /************************************* Resposivel ***************************************/
     @media (min-width: 0px) and (max-width: 768px) {
-        .spacing{padding: 1rem;}
-        .spacing-galery{padding: 1rem;}
-        
-        .img-desk{display: none;}
-        .img-mob{display: block;}
-    
-        
-        /***************************** Grind Mobile ************************************/
-    
-        .grid-text-second {
-        display: flex;
-        max-width: 98%;
-        align-items: center;
-        flex-direction: row;
-        gap: 6rem;
-        margin: 0 auto;
-        }
-    
-        .grid-title {
-        position: absolute;
-        right: 10rem;
-        top: 175px;
-        bottom: 0;
-        height: 2rem;
-        display: flex;
-        flex-direction: column;
-        }
-       
-        .grid-text {
-        display: flex;
-        flex-direction: column;
-        }
-       
-        /**************************TxT******************************/
-        
-        .title-redmi {
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: 600;
-        font-display: swap;
-        font-family: 'CamphorPro', sans-serif;
-        position: relative;
-        overflow-wrap: break-word;
-        }
-        
-        .subtitle-left {
-        text-align: left;
-        font-size: 1.5rem;
-        font-weight: 700;
-        font-family: 'CamphorPro', sans-serif;
-        position: relative;
-        margin-bottom: 0.5rem;
-        }
-        
-        .subtitle-center {
-        text-align: center;
-        font-size: 1.5rem;
-        font-weight: 700;
-        font-family: 'CamphorPro', sans-serif;
-        position: relative;
-        margin-bottom: 0.5rem;
-        }
-        
-        .p-center {
-        font-size: 0.99rem;
-        text-align: center;
-        font-family: 'CamphorPro', sans-serif;
-        position: relative;
-        overflow-wrap: break-word;
-        }
-        
-        .p-left {
-        font-size: 0.99rem;
-        text-align: left;
-        font-family: 'CamphorPro', sans-serif;
-        position: relative;
-        overflow-wrap: break-word;
-        }
+    .spacing{padding: 1rem;}
+    .spacing-galery{padding: 1rem;}
+
+    .img-desk{display: none;}
+    .img-mob{display: block;}
+
+
+    /***************************** Grind Mobile ************************************/
+
+    .grid-text-second {
+    display: flex;
+    max-width: 98%;
+    align-items: center;
+    flex-direction: row;
+    gap: 6rem;
+    margin: 0 auto;
     }
-      
+
+    .grid-title {
+    position: absolute;
+    right: 10rem;
+    top: 175px;
+    bottom: 0;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .grid-text {
+    display: flex;
+    flex-direction: column;
+    }
+
+    /**************************TxT******************************/
+
+    .title-redmi {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-display: swap;
+    font-family: 'CamphorPro', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    }
+
+    .subtitle-left {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'CamphorPro', sans-serif;
+    position: relative;
+    margin-bottom: 0.5rem;
+    }
+
+    .subtitle-center {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'CamphorPro', sans-serif;
+    position: relative;
+    margin-bottom: 0.5rem;
+    }
+
+    .p-center {
+    font-size: 0.99rem;
+    text-align: center;
+    font-family: 'CamphorPro', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    }
+
+    .p-left {
+    font-size: 0.99rem;
+    text-align: left;
+    font-family: 'CamphorPro', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    }
+    }
+
     @media (min-width: 769px) and (max-width: 1024px) {
 
-        .container-s101 {
-            max-width: 90rem;
-            background-color: #fff;
-            background-repeat: repeat-y;
-            }
-            
-            .container-s101 {
-            width: 100%;
-            padding-right: 15px;
-            padding-left: 15px;
-            margin-right: auto;
-            margin-left: auto;
-            }
-            
-            .col-sm-12-s101{
-            position: relative;
-            width: 100%;
-            min-height: 1px;
-            }
-            
-            .col-sm-12-s101 {
-            -ms-flex: 0 0 100%;
-            flex: 0 0 100%;
-            max-width: 100%;
-            }
-            
-            .row-s101 {
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
-            margin-right: -15px;
-            margin-left: -15px;
-            }
-            
-            /***************************** Fonts Text ******************************************/
-            
-            .title-redmi{
-            text-align: center;
-            font-size: 3rem;
-            font-weight: 600;
-            font-display: swap;
-            font-family: 'MiSans';
-            position: relative;
-            overflow-wrap: break-word;
-            }
-            
-            .subtitle-left {
-            text-align: left;
-            font-size: 1.5rem;
-            font-weight: 600;
-            font-family: 'MiSans', sans-serif;
-            position: relative;
-            overflow-wrap: break-word;
-            line-height: 1.1;
-            margin-bottom: 1rem;
-            }
-            
-            .subtitle-center {
-            text-align: center;
-            font-size: 3rem;
-            font-weight: 600;
-            font-family: 'MiSans', sans-serif;
-            position: relative;
-            overflow-wrap: break-word;
-            line-height: 1.1;
-            margin-bottom: 1rem;
-            }
-            
-            .p-center {
-            font-size: 1.1rem;
-            text-align: center;
-            font-family: 'MiSans', sans-serif;
-            position: relative;
-            line-height: 1.3;
-            overflow-wrap: break-word;
-            }
-            
-            .p-left {
-            font-size: 1.1rem;
-            text-align: left;
-            font-family:'MiSans', sans-serif;
-            position: relative;
-            line-height: 1.3;
-            overflow-wrap: break-word;
-            }
-            
-               
-            /***************************** Grid ******************************************/
-        
-            .grid-title {
-            position: absolute;
-            right: 0rem;
-            left: 0rem;
-            top: 3rem;
-            bottom: 0;
-            height: 6rem;
-            display: flex;
-            flex-direction: column;
-            }
-        
-            .grid-title-3 {
-            position: absolute;
-            right: 0rem;
-            left: 20rem;
-            top: 15rem;
-            bottom: 0;
-            height: 6rem;
-            display: flex;
-            flex-direction: column;
-            }
-        
-            .grid-tree {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 1rem;
-            margin: 0 auto;
-            }
-        
-        
-            .grid {
-            position: absolute;
-            top: 25rem;
-            bottom: 0;
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            }
-        
-            .grid-text-second {
-            display: flex;
-            max-width: 97%;
-            align-items: center;
-            flex-direction: row;
-            gap: 0rem;
-            margin: 0 auto;
-            }
-        
-            .grid-title-tree {
-            position: absolute;
-            right: 0rem;
-            left: 0rem;
-            bottom: 0rem;
-            top: 11rem;
-            }
-        
-            /***************************** Conteudos ******************************************/
-            
-            .spacing{padding: 3rem;}
-        /* Regras para tablets */
+    .container-s101 {
+    max-width: 90rem;
+    background-color: #fff;
+    background-repeat: repeat-y;
     }
-      
+
+    .container-s101 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+    .col-sm-12-s101{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    }
+
+    .col-sm-12-s101 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+
+    .row-s101 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+
+    /***************************** Fonts Text ******************************************/
+
+    .title-redmi{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    font-display: swap;
+    font-family: 'MiSans';
+    position: relative;
+    overflow-wrap: break-word;
+    }
+
+    .subtitle-left {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
+    .subtitle-center {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
+    .p-center {
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+    }
+
+    .p-left {
+    font-size: 1.1rem;
+    text-align: left;
+    font-family:'MiSans', sans-serif;
+    position: relative;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+    }
+
+
+    /***************************** Grid ******************************************/
+
+    .grid-title {
+    position: absolute;
+    right: 0rem;
+    left: 0rem;
+    top: 3rem;
+    bottom: 0;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .grid-title-3 {
+    position: absolute;
+    right: 0rem;
+    left: 20rem;
+    top: 15rem;
+    bottom: 0;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .grid-tree {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 0 auto;
+    }
+
+
+    .grid {
+    position: absolute;
+    top: 25rem;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+    .grid-text-second {
+    display: flex;
+    max-width: 97%;
+    align-items: center;
+    flex-direction: row;
+    gap: 0rem;
+    margin: 0 auto;
+    }
+
+    .grid-title-tree {
+    position: absolute;
+    right: 0rem;
+    left: 0rem;
+    bottom: 0rem;
+    top: 11rem;
+    }
+
+    /***************************** Conteudos ******************************************/
+
+    .spacing{padding: 3rem;}
+    /* Regras para tablets */
+    }
+
     @media (min-width: 1025px) {
 
     .container-s101 {
-        max-width: 90rem;
-        background-color: #fff;
-        background-repeat: repeat-y;
-        }
-        
-        .container-s101 {
-        width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-        }
-        
-        .col-sm-12-s101{
-        position: relative;
-        width: 100%;
-        min-height: 1px;
-        }
-        
-        .col-sm-12-s101 {
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-        }
-        
-        .row-s101 {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -15px;
-        }
-            
-            /***************************** Fonts Text ******************************************/
-            
-            .title-redmi{
-            text-align: center;
-            font-size: 3rem;
-            font-weight: 600;
-            font-display: swap;
-            font-family: 'MiSans';
-            position: relative;
-            overflow-wrap: break-word;
-            }
-            
-            .subtitle-left {
-            text-align: left;
-            font-size: 1.5rem;
-            font-weight: 600;
-            font-family: 'MiSans', sans-serif;
-            position: relative;
-            overflow-wrap: break-word;
-            line-height: 1.1;
-            margin-bottom: 1rem;
-            }
-            
-            .subtitle-center {
-            text-align: center;
-            font-size: 3rem;
-            font-weight: 600;
-            font-family: 'MiSans', sans-serif;
-            position: relative;
-            overflow-wrap: break-word;
-            line-height: 1.1;
-            margin-bottom: 1rem;
-            }
+    max-width: 90rem;
+    background-color: #fff;
+    background-repeat: repeat-y;
+    }
 
-            .subtitle-line {
-                text-align: center;
-                font-size: 1rem;
-                font-weight: 600;
-                font-family: 'MiSans', sans-serif;
-                position: relative;
-                overflow-wrap: break-word;
-                line-height: 1.1;
-                margin-bottom: 1rem;
-                }
-            
-            .p-center {
-            font-size: 1.1rem;
-            text-align: center;
-            font-family: 'MiSans', sans-serif;
-            position: relative;
-            line-height: 1.3;
-            overflow-wrap: break-word;
-            }
-            
-            .p-left {
-            font-size: 1.1rem;
-            text-align: left;
-            font-family:'MiSans', sans-serif;
-            position: relative;
-            line-height: 1.3;
-            overflow-wrap: break-word;
-            }
-            
-               
-            /***************************** Grid ******************************************/
-        
-            .grid-title {
-            position: absolute;
-            right: 0rem;
-            left: 0rem;
-            top: 3rem;
-            bottom: 0;
-            height: 6rem;
-            display: flex;
-            flex-direction: column;
-            }
-        
-            .grid-title-3 {
-            position: absolute;
-            right: 0rem;
-            left: 39rem;
-            top: 12rem;
-            bottom: 0;
-            height: 6rem;
-            display: flex;
-            flex-direction: column;
-            }
-        
-            .grid-tree {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 1rem;
-            margin: 0 auto;
-            }
-        
-        
-            .grid {
-            position: absolute;
-            top: 25rem;
-            bottom: 0;
-            display: flex;
-            flex-direction: column;
-            align-content: center;
-            justify-content: center;
-            align-items: center;
-            width: 100%;
-            }
-        
-            .grid-text-second {
-            display: flex;
-            max-width: 97%;
-            align-items: center;
-            flex-direction: row;
-            gap: 0rem;
-            margin: 0 auto;
-            }
-        
-            .grid-title-tree {
-            position: absolute;
-            right: 0rem;
-            left: 0rem;
-            bottom: 0rem;
-            top: 11rem;
-            }
-        
-            /***************************** Conteudos ******************************************/
-            
-            .spacing{padding: 3rem;}
-        /* Regras para desktops */
-      }
+    .container-s101 {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    }
 
+    .col-sm-12-s101{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    }
+
+    .col-sm-12-s101 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    }
+
+    .row-s101 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    }
+
+    /***************************** Fonts Text ******************************************/
+
+    .title-redmi{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    font-display: swap;
+    font-family: 'MiSans';
+    position: relative;
+    overflow-wrap: break-word;
+    }
+
+    .subtitle-left {
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
+    .subtitle-center {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
+    .subtitle-line {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
+    .subtitle-sub {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
+    .p-center {
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+    }
+
+    .p-left {
+    font-size: 1.1rem;
+    text-align: left;
+    font-family:'MiSans', sans-serif;
+    position: relative;
+    line-height: 1.3;
+    overflow-wrap: break-word;
+    }
+
+    /***************************** Grid ******************************************/
+
+    .grid-title {
+    position: absolute;
+    right: 0rem;
+    left: 0rem;
+    top: 3rem;
+    bottom: 0;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .grid-title-3 {
+    position: absolute;
+    right: 0rem;
+    left: 39rem;
+    top: 12rem;
+    bottom: 0;
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .grid-tree {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin: 0 auto;
+    }
+
+    .grid {
+    position: absolute;
+    top: 25rem;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+    .grid-text-second {
+    display: flex;
+    max-width: 97%;
+    align-items: center;
+    flex-direction: row;
+    gap: 0rem;
+    margin: 0 auto;
+    }
+
+    .grid-title-tree {
+    position: absolute;
+    right: 0rem;
+    left: 0rem;
+    bottom: 0rem;
+    top: 11rem;
+    }
+    }
