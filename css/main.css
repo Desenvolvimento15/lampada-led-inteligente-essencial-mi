@@ -377,6 +377,17 @@
             line-height: 1.1;
             margin-bottom: 1rem;
             }
+
+            .subtitle-line {
+                text-align: center;
+                font-size: 1rem;
+                font-weight: 600;
+                font-family: 'MiSans', sans-serif;
+                position: relative;
+                overflow-wrap: break-word;
+                line-height: 1.1;
+                margin-bottom: 1rem;
+                }
             
             .p-center {
             font-size: 1.1rem;
@@ -413,8 +424,8 @@
             .grid-title-3 {
             position: absolute;
             right: 0rem;
-            left: 20rem;
-            top: 15rem;
+            left: 39rem;
+            top: 12rem;
             bottom: 0;
             height: 6rem;
             display: flex;
