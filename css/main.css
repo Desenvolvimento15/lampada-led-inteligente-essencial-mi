@@ -388,13 +388,24 @@
 
     .subtitle-sub {
     text-align: center;
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 600;
     font-family: 'MiSans', sans-serif;
     position: relative;
     overflow-wrap: break-word;
     line-height: 1.1;
     margin-bottom: 1rem;
+    }
+
+    .subtitle-box {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    padding: 0.5rem;
     }
 
     .p-center {
