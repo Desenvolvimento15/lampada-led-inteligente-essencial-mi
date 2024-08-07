@@ -72,7 +72,13 @@
 
     .img-desk{display: none;}
     .img-mob{display: block;}
-
+    
+    .border{
+    border: 0.3rem solid;
+    border-radius: 0.5rem;
+    width: 100%;
+    text-align: center;
+    }
 
     /***************************** Grind Mobile ************************************/
 
@@ -145,6 +151,8 @@
     position: relative;
     overflow-wrap: break-word;
     }
+
+
     }
 
     @media (min-width: 769px) and (max-width: 1024px) {
