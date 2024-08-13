@@ -64,6 +64,12 @@
     .boxcolor-silver{background-color: var(--background-silver);}
 
     .spacing{padding: 3rem;}
+    .border{
+        border: 0.3rem solid;
+        border-radius: 0.5rem;
+        width: 20%;
+        text-align: center;
+        }
 
     /************************************* Resposivel ***************************************/
     @media (min-width: 0px) and (max-width: 768px) {
@@ -74,31 +80,31 @@
     .img-mob{display: block;}
     
     .border{
-    border: 0.3rem solid;
-    border-radius: 0.5rem;
-    width: 100%;
-    text-align: center;
+        border: 0.3rem solid;
+        border-radius: 0.5rem;
+        width: 70%;
+        text-align: center;
     }
 
     /***************************** Grind Mobile ************************************/
+
+    .grid-title {
+        position: absolute;
+  
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
 
     .grid-text-second {
     display: flex;
     max-width: 98%;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     gap: 6rem;
     margin: 0 auto;
-    }
-
-    .grid-title {
-    position: absolute;
-    right: 10rem;
-    top: 175px;
-    bottom: 0;
-    height: 2rem;
-    display: flex;
-    flex-direction: column;
     }
 
     .grid-text {
@@ -108,47 +114,86 @@
 
     /**************************TxT******************************/
 
-    .title-redmi {
+    .title-redmi{
     text-align: center;
     font-size: 1.5rem;
     font-weight: 600;
     font-display: swap;
-    font-family: 'CamphorPro', sans-serif;
+    font-family: 'MiSans';
     position: relative;
     overflow-wrap: break-word;
     }
-
+    
     .subtitle-left {
     text-align: left;
     font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'CamphorPro', sans-serif;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
     position: relative;
-    margin-bottom: 0.5rem;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
     }
 
     .subtitle-center {
     text-align: center;
     font-size: 1.5rem;
-    font-weight: 700;
-    font-family: 'CamphorPro', sans-serif;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
     position: relative;
-    margin-bottom: 0.5rem;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
+    .subtitle-line {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
+    .subtitle-sub {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    margin-bottom: 1rem;
+    }
+
+    .subtitle-box {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'MiSans', sans-serif;
+    position: relative;
+    overflow-wrap: break-word;
+    line-height: 1.1;
+    padding: 0.5rem;
     }
 
     .p-center {
-    font-size: 0.99rem;
+    font-size: 1.1rem;
     text-align: center;
-    font-family: 'CamphorPro', sans-serif;
+    font-family: 'MiSans', sans-serif;
     position: relative;
+    line-height: 1.3;
     overflow-wrap: break-word;
     }
 
     .p-left {
-    font-size: 0.99rem;
+    font-size: 1.1rem;
     text-align: left;
-    font-family: 'CamphorPro', sans-serif;
+    font-family:'MiSans', sans-serif;
     position: relative;
+    line-height: 1.3;
     overflow-wrap: break-word;
     }
 
